@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Kishore Nuthalapati</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#" data-page="home">
+                <i class="bi bi-code-slash"></i>
+                Dr. Kishore
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" data-page="home">
+                            <i class="bi bi-house"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-page="profile">
+                            <i class="bi bi-person"></i> Profile
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-page="experience">
+                            <i class="bi bi-gear"></i> Experience
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-page="contact">
+                            <i class="bi bi-envelope"></i> Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Home Page -->
+        <div id="home" class="page active">
+            <div class="container">
+                <div class="row align-items-center min-vh-100">
+                    <div class="col-lg-6">
+                        <div class="profile-section">
+                            <div class="profile-image-container">
+                                <img id="profileImage" src="./profile.png" alt="Profile" class="profile-image">
+                                <div class="upload-overlay">
+                                    <i class="bi bi-camera-fill"></i>
+                                    <input type="file" id="profileUpload" accept="image/*" hidden>
+                                </div>
+                            </div>
+                            <div class="profile-info">
+                                <h1 class="display-4 fw-bold mb-2">Dr. Kishore Nuthalapati</h1>
+                                <h3 class="text-primary mb-3">Economist and Corporate Finance Professional</h3>
+                                <p class="lead mb-4"> 25 years' experience in finanace, banking, credit, project management, HR & legal.</p>
+                                <div class="social-links">
+                                    <a href=https://www.linkedin.com/in/dr-kishore-nuthalapati-421aa2222/  class="social-link"><i class="bi bi-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="hero-animation">
+                            <div class="floating-card">
+                                <i class="bi bi-cpu"></i>
+                                <span>Accounting</span>
+                            </div>
+                            <div class="floating-card delay-1">
+                                <i class="bi bi-code-square"></i>
+                                <span>Finance Project</span>
+                            </div>
+                            <div class="floating-card delay-2">
+                                <i class="bi bi-motherboard"></i>
+                                <span>HR</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Profile Page -->
+        <div id="profile" class="page">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="page-title">Professional Profile</h2>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4">
+                        <div class="profile-card">
+                            <div class="profile-header">
+                                <div class="profile-image-container">
+                                    <img id="profileImageProfile" src="./profile.png" alt="Profile" class="profile-image">
+                                    <div class="upload-overlay">
+                                        <i class="bi bi-camera-fill"></i>
+                                        <input type="file" id="profileUploadProfile" accept="image/*" hidden>
+                                    </div>
+                                </div>
+                                <h3>Dr. Kishore</h3>
+                                <p class="profile-title">Economist and Corporate Finance Professional</p>
+                            </div>
+                            <div class="profile-details">
+                                <div class="detail-item">
+                                    <i class="bi bi-mortarboard"></i>
+                                    <div>
+                                        <strong>Education</strong>
+                                        <span>Ph.D, MBA, M.com & LLM</span>
+                                    </div>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="bi bi-geo-alt"></i>
+                                    <div>
+                                        <strong>Location</strong>
+                                        <span>Hyderbad, India</span>
+                                    </div>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="bi bi-envelope"></i>
+                                    <div>
+                                        <strong>Email</strong>
+                                        <span>okkishore@yahoo.co.in </span>
+                                    </div>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="bi bi-phone"></i>
+                                    <div>
+                                        <strong>Phone</strong>
+                                        <span>+91 9949094240</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="profile-content">
+                            <div class="about-section">
+                                <h4><i class="bi bi-person-lines-fill"></i> About Me</h4>
+                                <p>Dr. Kishore is a corporate finance professional and an economist with 25 years’ experience. He holds ranks in Ph.D (finance), MBA, M.com, and LLM; and is a qualified Company Secretary (ACS). Is an expert in corporate finance, project finance, PPP projects, venture capital, credit, legal, accounting, & HR. </p>
+                                <p> His employments, and associations include Ocean Sparkle, Meghraj Bank, ICICI, SREI, IL&FS, Malaxmi, PRECA, Meenakshi, and BEKEM. Presently, he is serving as CFO & Director at BEKEM Infra Projects Pvt. Ltd. Previously, he served as Director and Committee Member of several organizations. He received Best CFO awards 
+                                    including from Economic Times ET Now Awards. He has professional memberships & associations with forums like CII, FTCCI, PRMIA - US, ICA, NHRD. He is Member - Board of Management of Pochampally Bank, one of the India’s top UCBs. He is part of ‘Africa Asia Forum on Corruption’, an International Organization headquartered 
+                                    in Indonesia with regional offices in 10 Asian & African countries working with Central Banks of various countries. </p>
+                                <p>His other associations: Honorary Fellow of Dr.MCHRDI Govt of Telangana; Board Member at Trade Tower; Board of Studies Member at Woxsen International University; Board of Studies Member of Andhra Mahila Sabha Trust, Board Advisor for Startups, Financial Mentor @ Startup Grind - world’s largest Startup Community Platform (under Google & AWS); 
+                                    Vice President of Association of Valuation Professionals (AVP), a National Level organization head quartered at Mumbai; Member Board of Studies & Professor of Practice at SSIM an AICTE approved Business School, etc. He is a Member of World Association of PPP units and PPP professionals (WAPPP), a Geneva Switzerland based global organization 
+                                    promoting PPP projects. He is an Editorial Member of Banking Research Journals. He is a Jury Member for MMA Global based at London with 50 countries reach. He has also been Board Member of several other juries. </p>
+                                <p>He delivered expert talks and case studies in various locations in India, Singapore, Dubai, Abu Dhabi, Malaysia, Vietnam, Indonesia, Thailand, and South Korea in person, and online in several countries. Delivered sessions for Civil Servants (IAS, IPS, IFS, ISS, IES), Commissioners, Govt Officials, Regulators, Bankers, Chartered Accountants, 
+                                    Company Secretaries, Cost Accountants, Advocates, Investment Bankers, Stockbrokers, Management Professionals, Startups, Faculty; & at institutes including ISB, IIMs, Woxsen, NITIE, FIEO, NICMAR, Osmania University, FTCCI, GITAM, REVA, KLU, etc. He is frequently interviewed on TV channels, and other media on ‘financial aspects.’</p>
+                                <p>Authored 85 + articles including in leading publications; guided 1000+ research projects. He has been championing Financial Literacy probono through FLAI. He is a humble Angel Investor. He is mentoring Startups, MSMEs, Scholars, and Professionals. He participated in many conferences.</p>
+                            </div>
+                            
+                            <div class="hobbies">
+                                <h4><i class="bi bi-target"></i>Hobbies</h4>
+                                <ul class="hobbies">
+                                    <li>Reading</li>
+                                    <li>Research</li>
+                                    <li>Teaching money skills to kids & SMEs</li>
+                                    <li>Travelling and Studying micro markets</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Experience Page -->
+        <div id="experience" class="page">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="experirnce">
+                           <h4><i class="bi bi-book"></i> Experience</h4>
+                              <div class="experience">
+                                  <div class="experience-header">
+                                      <h5>Chief Financial Officer</h5>
+                                          <span class="experience-year">Apr 2022 - Present</span>
+                                    </div>
+                                    <p class="experience-area">BEKEM Infra Projects Pvt Ltd</p>
+                                    <p class="experience-description">Corporate Finance Professional / Economist / Author / Investor / Resource Person. Have 25 plus experience in Credit, Investments, 
+                                             Project Finance, Project Implementation, Legal and HR aspects. Been contributing to Policy Making bodies, Mentoring Startups & MSMEs, Board Advisor, and championing 
+                                             Financial Literacy cause. Authored 200 articles. Guided more than 1,000 project works. Humble Angel Investor. Speaker at National Seminars/Events of CFOs, Public 
+                                             Private Partnership (PPP) projects, Credit, Investments, Project Management, Infrastructure, Real Estate, and Policy formulation.</p>
+                                </div>
+                        </div>
+                        <div class="experirnce">
+                            <div class="experience-header">
+                                <h5>Member - Board of Management</h5>
+                                <span class="experience-year">Jan 2014 - Present</span>
+                            </div>
+                            <p class="experience-area">Pochampally Bank, Telangana</p>
+                            <p class="experience-description">Professional Independent Member in Board of Management of Pochampally Bank (regulated by RBI & State Cooperative Societies Authority). 
+                                                               oard Advisor since 2014 and Member of Board of Management since 2022.</p>
+                         </div>
+                    </div>
+                    <div class="experirnce">
+                        <div class="experience">
+                            <div class="experience-header">
+                                <h5>Regional Director(Telangana & Andhra Pradesh),PRMIA</h5>
+                                <span class="experience-year">Jan 2007 - Present</span>
+                            </div>
+                               <p class="experience-area">PRMIA(Professional Risk Manager's International Association,USA)</p>
+                               <p class="experience-description">PRMIA is a global non-profit organization head quartered at USA and present in 193 countries with 60 Chapters and 
+                                  60,000 plus members. PRMIA is one of the only 2 Risk Management institutes whose certifications are globally recognized by all the central banks 
+                                  in the World for recruitments in Banks, Mutual Funds, Insurance Companies, Funds, NBFCs, Regulatory Departments, and in other financial organizations. 
+                                  Dr. Kishore Nuthalapati is the Steering Committee Member since 2007, and Regional Director (TG & AP) at Hyderabad since 2025</p>
+                        </div>
+                    </div>
+               </div>
+            </div>
+        </div>
+        <!-- Contact Page -->
+        <div id="contact" class="page">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="page-title">Get In Touch</h2>
+                    </div>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-6">
+                        <div class="contact-info">
+                            <h4>Let's Connect</h4>
+                            <p>
+                                If you'd like to discuss potential partnerships, opportunities, or simply exchange ideas, please don't hesitate to reach out. I'm looking forward to connecting with like-minded professionals and exploring ways to drive innovation and growth in our industry.
+                            </p>
+                            <div class="contact-item">
+                                <i class="bi bi-envelope"></i>
+                                <span>okkishore@yahoo.co.in </span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="bi bi-phone"></i>
+                                <span>+91 9949094240</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="bi bi-geo-alt"></i>
+                                <span>Hyderbad, India</span>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <form class="contact-form" id="contactForm">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input type="text" class="form-control" id="subject" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">
+                                <i class="bi bi-send"></i> Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
